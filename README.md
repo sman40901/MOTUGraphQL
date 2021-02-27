@@ -8,7 +8,9 @@ this will create a .NET core web project : dotnet new web -n MOTUGraphQL
 this will add the project to the solution : dotnet sln add MOTUGraphQL
  
 Now open the solution you just created in Visual Studio (you can get a community edition for free) 
- 
+ Add these NuGet Packages :
+ ![image](https://user-images.githubusercontent.com/53153225/109376792-d2ed2700-787b-11eb-8cdb-90300447fb83.png)
+
 Check if launchSettings.json file looks like this, if it is not then it won't start up in IIS server :
  
 
